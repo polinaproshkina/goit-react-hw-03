@@ -1,4 +1,4 @@
-export default function SerchBox({ onChange, inputValue }) {
+export default function SerchBox({ onChange }) {
 
     const handleChange = (event) => {
         onChange(event.target.value);
@@ -8,7 +8,6 @@ export default function SerchBox({ onChange, inputValue }) {
         <>
             <label>Find contacts by Name</label>
             <input type="text" name="searchName" onChange={handleChange}></input>
-            <p>{inputValue}</p>
         </>
     )
 }
