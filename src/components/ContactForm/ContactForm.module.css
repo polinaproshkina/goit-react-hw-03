@@ -1,0 +1,21 @@
+.form {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 15px 10px 8px 10px;
+  justify-items: center;
+}
+.inputLabel {
+  display: block;
+}
+.input {
+  margin-bottom: 10px;
+  width: 200px;
+}
+.button {
+  display: block;
+}
+.errorText {
+  color: red;
+  display: block;
+}

@@ -1,0 +1,15 @@
+.button {
+  width: auto;
+  height: 25px;
+}
+.contactData {
+  display: flex;
+  align-items: center;
+}
+.contactName,
+.contactNumber {
+  margin: 3px;
+}
+.contactPic {
+  height: 15px;
+}

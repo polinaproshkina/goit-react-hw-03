@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.listIem {
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 5px;
+  min-width: 250px;
+  justify-content: space-between;
+}

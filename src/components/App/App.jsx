@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import ContactList from "../ContactList/ContactList";
 import ContactForm from "../ContactForm/ContactForm";
-import SerchBox from "../SearchBox/SearchBox";
+import SearchBox from "../SearchBox/SearchBox";
 import { useDebounce } from "use-debounce";
 import { Formik } from "formik";
 
@@ -48,8 +48,9 @@ export default function App() {
 
   return (
     <>
+      <h1>Phonebook</h1>
       <ContactForm onSubmit={addNewContact} />
-      <SerchBox inputValue={debouncedInputValue} onChange={setinputValue} />
+      <SearchBox inputValue={debouncedInputValue} onChange={setinputValue} />
       <ContactList contactlist={visibleContacts} onDelete={deleteContact} />
     </>
   )
